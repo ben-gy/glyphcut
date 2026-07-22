@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 Ben Richardson — https://benrichardson.dev
+// Additional terms under AGPL-3.0 section 7(b) apply; see ADDITIONAL-TERMS.md.
 /**
  * Click-to-define tooltips. Font tooling is dense with jargon and the audience is technical but
  * not necessarily typographic — plenty of good front-end developers have never had a reason to

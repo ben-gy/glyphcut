@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 Ben Richardson — https://benrichardson.dev
+// Additional terms under AGPL-3.0 section 7(b) apply; see ADDITIONAL-TERMS.md.
 /** Modal shell plus the four content panels: how it works, privacy, about, shortcuts. */
 import { term } from './glossary';
 
@@ -168,7 +171,7 @@ export function showAbout(): void {
     <p>Built by <a href="https://benrichardson.dev/" target="_blank" rel="noopener">benrichardson.dev</a>.
     The full catalogue of tools and sites lives at
     <a href="https://sites.benrichardson.dev" target="_blank" rel="noopener">sites.benrichardson.dev</a>.</p>
-    <p>Source: <a href="https://github.com/ben-gy/glyphcut" target="_blank" rel="noopener">github.com/ben-gy/glyphcut</a> — MIT licensed.</p>
+    <p>Source: <a href="https://github.com/ben-gy/glyphcut" target="_blank" rel="noopener">github.com/ben-gy/glyphcut</a>.</p>
   `,
   );
 }
