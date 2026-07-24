@@ -8,7 +8,6 @@ import { hideGlossary, initGlossary, term } from './glossary';
 import { closeModal, isModalOpen, showAbout, showHowItWorks, showPrivacy, showShortcuts } from './modals';
 import { fontService, type LoadedFontResponse } from './fontservice';
 import { describeEmbedding } from './sfnt';
-import { mountFeedback } from './feedback';
 import type { SubsetOptions, SubsetResult } from './types';
 
 const PREFS_KEY = 'glyphcut.prefs.v1';
@@ -849,7 +848,6 @@ function init(): void {
   wireFontActions();
   wireNav();
   wireKeyboard();
-  mountFeedback();
   registerServiceWorker();
 
   eventLog.log('Glyphcut ready — everything runs on this device', 'good');
